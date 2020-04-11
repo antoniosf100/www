@@ -1,0 +1,32 @@
+*  body{
+		color: black;
+		width: 500px;
+		/*border: 4;*/
+		height: auto;
+	    font-size: 2vh;
+		/*cellspacing: 0;*/
+}
+.table1 tr {
+		background: gray;
+}
+.table1 td { 
+	    background: red; color: white; 
+}
+/*.table1   td.col2 { background: orange; color: gray; }
+.table1   td.col3 { background: yellow; */
+   /*tr.col1 { background: red; color: white; }*/
+
+/*   td.col2 { background: orange; color: gray; }
+   td.col3 { background: yellow; }*/
+.table1 td:nth-child(1)
+  {
+    background-color: orange;
+  }
+.table1 td:nth-child(2)
+  {
+    background-color: blue;
+  }
+.table1 td:nth-child(3)
+  {
+    background-color: green;
+  }
